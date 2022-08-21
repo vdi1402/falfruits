@@ -1,0 +1,84 @@
+@media (max-width: 1170px) {
+  /*general css*/
+  .section-subtitle {
+    max-width: 60%;
+  }
+
+  /*navbar css*/
+
+}
+
+@media (max-width: 991px) {
+
+    .about .banner-section,
+.dish .banner-section,
+.gallery .banner-section {
+  
+  padding-top: 12.5rem;
+  padding-bottom: 3rem;
+
+}
+
+
+.header .navbar {
+    background-size: cover;
+    padding: 2rem;
+  }
+
+  .header .navbar-nav{
+    margin-top: 2rem;
+  }
+
+  .header .navbar-nav .nav-link{
+padding: 0.2rem 0.5rem;
+  }
+
+  .header-right span{
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+
+
+    body,html{
+        font-size: 8px;
+    }
+
+    .section-subtitle{
+        max-width: 80%;
+    }
+
+    .banner-section{
+        min-height: 70vh;
+
+    }
+
+    .banner-section  .carousel-item {
+        height: 70vh;
+    }
+
+    .banner-section  .carousel-caption {
+      left: 30%;
+      height: 70vh;
+      width: 60%;
+      top: 30%;
+  }
+}
+
+
+@media (max-width: 590px) {
+
+
+    body,html{
+        font-size: 7px;
+    }
+    .feauture-section .feature-row {
+     
+      padding: 4.4rem;
+    }
+    
+
+   
+   
+}
